@@ -3,29 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>DUE</title>
 </head>
 <body>
-    <div id="test">
-        你好, {{ content }}
-        <span>{{ description }}</span>
-    </div>
-
-    <script type="module">
-        import Due from './core/index.js';
-        window.test = new Due({
-            el: 'test',
-            data: {
-                content: 'panda',
-                description: 'panda say hello',
-                obj: {
-                    a: 1,
-                    b: 2
-                },
-                list: [{x: 'panda', y: 'panda'}, {xx: 'ppp', yy: 'mmm'}]
-            }
-        });
-    </script>
+    
 </body>
 </html>
